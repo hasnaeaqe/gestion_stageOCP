@@ -1,0 +1,165 @@
+/* Reset + font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #2c3e50;
+}
+
+/* Container */
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #43a047;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* Password toggle */
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    color: #7f8c8d;
+}
+
+/* Button */
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background-color: #25392bff;
+}
+
+/* Separator */
+.separator {
+    height: 1px;
+    background-color: #ecf0f1;
+    margin: 30px 0;
+    position: relative;
+}
+
+.separator-text {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 15px;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* Signup link */
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.signup-link a {
+    color: #43a047;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Logo */
+.ocp-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.ocp-logo span {
+    color: #43a047;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .login-container {
+        padding: 25px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+}

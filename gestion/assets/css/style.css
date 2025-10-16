@@ -1,0 +1,74 @@
+/* Thème OCP : bleu/vert, style dashboard */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007b9e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #005f73;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #007b9e;
+}
+
+th {
+    background-color: #007b9e;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e0f7fa;
+}
+
+button {
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0077b6;
+}
